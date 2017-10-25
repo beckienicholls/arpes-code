@@ -1,7 +1,7 @@
 """GUI for k-Warping NeXus files. The GUI takes in an input file, outputs to the selected destination.
 The kx and ky pixel fields are compulsory. The offsets and workfunction are optional.
 The code will output a new NeXus file containin the kWarped 3D datacube, the values of the axes, kinetic, kx, ky and binding energy
-(binding energy is -KE if work function is zero."""
+(binding energy is -KE if work function is zero)."""
 
 import sys
 from PyQt5 import QtWidgets
